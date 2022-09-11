@@ -9,7 +9,7 @@ public class EditLead extends ProjectSpecificMethods{
 	  @Test
 	public void runEditLead() throws InterruptedException{
 		
-		driver.get("http://leaftaps.com/opentaps/");
+		
 		
 		driver.findElement(By.id("username")).sendKeys("DemoSalesManager");
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
